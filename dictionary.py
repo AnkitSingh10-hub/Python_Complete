@@ -2,11 +2,13 @@
 thisdict = {"brand": "Ford", "model": "Mustang", "Year": 1964}
 print(thisdict)
 
-for i in thisdict:
+for i in thisdict.values():
     print(i)
 
-if "brand" in thisdict:
+if "brand" in thisdict.keys():
     print(True)
 
-if "Ford" not in thisdict:
+if "Ford" not in thisdict.values():
     print(True)
+
+print(thisdict.items())
