@@ -1,4 +1,5 @@
 def func(**kwargs):
+    print(kwargs)
     for i in kwargs:
         print(i)
 
