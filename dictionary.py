@@ -8,7 +8,7 @@ for i in thisdict.values():
 if "brand" in thisdict.keys():
     print(True)
 
-if "Ford" not in thisdict.values():
+if "Ford" in thisdict.values():
     print(True)
 
 print(thisdict.items())
