@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class Animal(ABC):
+class Animal(ABC): #this is an abstract class
     @abstractmethod
     def make_sound(self):
         pass
