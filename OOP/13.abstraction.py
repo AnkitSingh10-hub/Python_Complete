@@ -1,27 +1,27 @@
 from abc import ABC, abstractmethod
 
-
-class Parent(ABC):
+class Animal(ABC):
     @abstractmethod
-    def call(self):
+    def make_sound(self):
         pass
 
+class Dog(Animal):
+    def make_sound(self):
+        return "Bark"
 
-class Child1(ABC):
-    def call(self):
-        print("Child 1")
+class Cat(Animal):
+    def make_sound(self):
+        return "Meow"
 
+# This will raise an error because you can't instantiate an abstract class
+try:
+    animal = Animal()
+except TypeError as e:
+    print(e)
 
-class Child2(ABC):
-    def call(self):
-        print("Child 1")
+# Correct usage
+dog = Dog()
+print(dog.make_sound())  # Output: Bark
 
-
-c1 = Child1()
-c2 = Child2()
-
-c1.call()
-c2.call()
-
-p = Parent()
-p.call()
+cat = Cat()
+print(cat.make_sound())  # Output: Meow
