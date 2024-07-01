@@ -5,7 +5,7 @@ print(a.__dir__())
 
 print(a, "\n")
 
-thistuple = ("apple", "banana", "cherry", "apple", "cherry")
+thistuple = ("apple", "banana", "cherry", "apple", "cherry", 5)
 print(thistuple, "\n")
 
 thistuple = ("apple", "banana", "cherry")
