@@ -7,8 +7,6 @@ print(list_items)
 print(min(list_items))
 print(max(list_items))
 
-print(pow(2, 2))
-
 
 def a():
     pass
