@@ -6,15 +6,10 @@ print(appending_list)
 appending_list.insert(0, "SINGH")
 print(appending_list)
 
-thislist = ["apple", "banana", "cherry"]
-tropical = ["mango", "pineapple", "papaya"]
-thislist.extend(tropical)
-print(thislist)
-
-tropical_tuple = ("strawberry", "grape")
-thislist.extend(tropical_tuple)
-
-print(thislist)
+colors = ["red", "green"]
+more_colors = ["blue", "yellow"]
+all_colors = colors + more_colors
+print(all_colors)
 
 sum = [1, 2, 3]
 sum.append([4, 8])
