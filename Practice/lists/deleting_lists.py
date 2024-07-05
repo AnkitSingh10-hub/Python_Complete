@@ -5,7 +5,6 @@ list_2.remove(30)
 print(list_2)
 
 list_3 = [10, 20, 30, 40, 50]
-list_3.pop(0)
 print(list_3)
 list_3.pop()
 print(list_3)
