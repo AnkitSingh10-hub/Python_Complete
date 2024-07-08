@@ -9,7 +9,7 @@ print(thisdict, "\n")
 thisdict.update({"id": 100})
 print(thisdict, "\n")
 
-thisdict["exp"] = "new"
+thisdict["adding"] = "new"
 
 print(thisdict)
 
