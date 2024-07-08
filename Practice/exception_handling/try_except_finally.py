@@ -6,7 +6,7 @@ try:
     print(a)
 
 except ZeroDivisionError as e:
-    print(e)
+    print(f"{e} this is the exception")
 except NameError:
     print("This is a name error")
 else:
