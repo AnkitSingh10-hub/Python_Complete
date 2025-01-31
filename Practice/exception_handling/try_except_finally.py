@@ -1,8 +1,7 @@
-
 try:
     b = 10
     c = 0
-    a = b/c
+    a = b / c
     print(a)
 
 except ZeroDivisionError as e:

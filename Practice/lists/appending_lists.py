@@ -3,7 +3,7 @@ appending_list = [1, 2, 3, 4, 5]
 print(appending_list)
 appending_list.append("ANKIT")
 print(appending_list)
-appending_list.insert(0, "SINGH")
+appending_list.insert(1, "SINGH")
 print(appending_list)
 
 colors = ["red", "green"]
